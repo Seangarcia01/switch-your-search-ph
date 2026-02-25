@@ -1,0 +1,251 @@
+<!-- impact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact - Switch Your Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">🌿 Switch<span>YourSearch</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="impact.html">Impact</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button></li>
+    </ul>
+    <div class="mobile-menu" onclick="toggleMobileMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-content">
+      <h1>Your Impact Matters</h1>
+      <p>See how digital choices translate into real environmental change.</p>
+    </div>
+  </section>
+
+  <!-- Digital Infrastructure & Climate -->
+  <section class="section">
+    <h2 class="section-title">Digital Infrastructure & Climate Change</h2>
+    <div class="card fade-in" style="max-width: 900px; margin: 0 auto;">
+      <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">The digital infrastructure that powers our online world has a significant environmental footprint. Understanding this impact is the first step toward making more sustainable choices.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+        <div style="text-align: center; padding: 1.5rem; background: #ffebee; border-radius: 10px;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🏢</div>
+          <h4 style="color: #c62828; margin-bottom: 0.5rem;">Data Centers</h4>
+          <p>Global data centers consume ~200 TWh annually, about 1% of world electricity use.</p>
+        </div>
+        <div style="text-align: center; padding: 1.5rem; background: #fff3e0; border-radius: 10px;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📱</div>
+          <h4 style="color: #e65100; margin-bottom: 0.5rem;">Device Production</h4>
+          <p>Manufacturing a single smartphone requires mining rare earth elements with high environmental cost.</p>
+        </div>
+        <div style="text-align: center; padding: 1.5rem; background: #e8f5e9; border-radius: 10px;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📶</div>
+          <h4 style="color: #2e7d32; margin-bottom: 0.5rem;">Network Traffic</h4>
+          <p>Global internet traffic generates significant CO2 emissions from constant data transmission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Table -->
+  <section class="section" style="background-color: var(--light-green);">
+    <h2 class="section-title">Search Engine Comparison</h2>
+    <div class="table-container fade-in">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Traditional Search Engines</th>
+            <th>Eco-Search Engines</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Primary Goal</strong></td>
+            <td>Profit maximization</td>
+            <td class="highlight">Climate action</td>
+          </tr>
+          <tr>
+            <td><strong>Revenue Allocation</strong></td>
+            <td>80-95% to shareholders</td>
+            <td class="highlight">80-100% to environment</td>
+          </tr>
+          <tr>
+            <td><strong>Data Privacy</strong></td>
+            <td>Data monetization</td>
+            <td class="highlight">Privacy protection</td>
+          </tr>
+          <tr>
+            <td><strong>Server Energy</strong></td>
+            <td>Mixed sources</td>
+            <td class="highlight">100% renewable</td>
+          </tr>
+          <tr>
+            <td><strong>Transparency</strong></td>
+            <td>Limited reporting</td>
+            <td class="highlight">Monthly reports</td>
+          </tr>
+          <tr>
+            <td><strong>Carbon Neutrality</strong></td>
+            <td>Not a priority</td>
+            <td class="highlight">Core commitment</td>
+          </tr>
+          <tr>
+            <td><strong>User Choice</strong></td>
+            <td>No input on impact</td>
+            <td class="highlight">Choose supported causes</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Everyday Impact -->
+  <section class="section">
+    <h2 class="section-title">Your Everyday Impact</h2>
+    <div class="features-grid">
+      <div class="feature-card fade-in">
+        <div class="feature-icon">🔍</div>
+        <h3>Search Habits</h3>
+        <p>The average person makes 3-4 web searches daily. Over a year, switching to eco-search engines can fund the planting of 25-30 trees.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-icon">👨‍👩‍👧‍👦</div>
+        <h3>Family Impact</h3>
+        <p>If a family of 4 all switch, that's potentially 100+ trees planted annually through simple daily searches.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-icon">🌐</div>
+        <h3>Community Effect</h3>
+        <p>If 1,000 people switch, that's 25,000+ trees per year. Communities can fund entire reforestation projects together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Counter -->
+  <section class="section stats-section">
+    <h2 class="section-title" style="color: white;">Cumulative Impact</h2>
+    <div class="stats-grid">
+      <div class="stat-card fade-in">
+        <div class="stat-icon">🌳</div>
+        <span class="stat-number" data-target="250">0</span>
+        <span class="stat-label">Million Trees Funded</span>
+      </div>
+      <div class="stat-card fade-in">
+        <div class="stat-icon">💨</div>
+        <span class="stat-number" data-target="75">0</span>
+        <span class="stat-label">Million Tons CO₂ Sequestered</span>
+      </div>
+      <div class="stat-card fade-in">
+        <div class="stat-icon">🌊</div>
+        <span class="stat-number" data-target="5">0</span>
+        <span class="stat-label">Million Plastic Bottles Removed</span>
+      </div>
+      <div class="stat-card fade-in">
+        <div class="stat-icon">🏞️</div>
+        <span class="stat-number" data-target="35">0</span>
+        <span class="stat-label">Countries with Projects</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Environmental Benefits -->
+  <section class="section">
+    <h2 class="section-title">Environmental Benefits</h2>
+    <div class="card fade-in" style="max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+        <div style="padding: 1.5rem; background: var(--light-green); border-radius: 10px;">
+          <div style="font-size: 2rem; margin-bottom: 1rem;">🌲</div>
+          <h3 style="color: var(--primary-green); margin-bottom: 0.5rem;">Biodiversity</h3>
+          <p>Trees create habitats for countless species, preserving biodiversity in vulnerable ecosystems.</p>
+        </div>
+        <div style="padding: 1.5rem; background: var(--light-green); border-radius: 10px;">
+          <div style="font-size: 2rem; margin-bottom: 1rem;">💧</div>
+          <h3 style="color: var(--primary-green); margin-bottom: 0.5rem;">Water Cycle</h3>
+          <p>Forests regulate water cycles, preventing floods and maintaining clean water supplies.</p>
+        </div>
+        <div style="padding: 1.5rem; background: var(--light-green); border-radius: 10px;">
+          <div style="font-size: 2rem; margin-bottom: 1rem;">🌬️</div>
+          <h3 style="color: var(--primary-green); margin-bottom: 0.5rem;">Air Quality</h3>
+          <p>Trees absorb CO2 and pollutants, improving air quality and reducing respiratory diseases.</p>
+        </div>
+        <div style="padding: 1.5rem; background: var(--light-green); border-radius: 10px;">
+          <div style="font-size: 2rem; margin-bottom: 1rem;">🌡️</div>
+          <h3 style="color: var(--primary-green); margin-bottom: 0.5rem;">Climate Regulation</h3>
+          <p>Forests act as carbon sinks, helping stabilize global temperatures and combat climate change.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="text-align: center;">
+    <div class="fade-in">
+      <h2 class="section-title">Start Your Impact Today</h2>
+      <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem;">Every search is an opportunity to make a positive impact on our planet. Switch now and join the movement.</p>
+      <a href="contact.html" class="btn-primary">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>🌿 SwitchYourSearch</h4>
+        <p>Making the internet more sustainable, one search at a time.</p>
+        <div class="social-links">
+          <a href="#" title="Facebook">📘</a>
+          <a href="#" title="Twitter">🐦</a>
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="LinkedIn">💼</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="impact.html">Impact</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Eco-Search Engines</h4>
+        <ul>
+          <li><a href="https://www.ecosia.org" target="_blank">Ecosia</a></li>
+          <li><a href="https://www.oceanhero.org" target="_blank">OceanHero</a></li>
+          <li><a href="https://www.ecogine.org" target="_blank">EcoGine</a></li>
+          <li><a href="https://www.searchscene.com" target="_blank">Search Scene</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Climate Action Guide</a></li>
+          <li><a href="#">Digital Carbon Footprint</a></li>
+          <li><a href="#">Sustainability Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Switch Your Search. All rights reserved. | Making the web greener, one click at a time.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
